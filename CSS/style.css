@@ -1,0 +1,122 @@
+  /* File: ~/style.css
+  Homework 1: Creating Your First Web Page
+  Modib Qadir, UMass Lowell Computer Science, Modib_qadir@student.uml.edu
+  Copyright (c) 2023 by Modib Qadir. All rights reserved. May be freely copied or
+  excerpted for educational purposes with credit to the author.
+  Updated by MQ on September 19th, 2023. */
+  
+  /* Sets up the page */
+* {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 2px;
+}
+
+/* Color of background */
+body {
+  background-color: #97a167;
+}
+
+/* First Paragraph Box */
+.introduction{
+  border: 2px solid black;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;  
+  font-size: 16.5px;
+}
+
+/* Sets up layout */
+.container{
+  display:flex;
+  align-items:center;
+  margin-right: 2px;
+}
+
+/* Sets up Contact box */
+.contact_box{
+  margin-bottom: auto;
+  align-items: center;
+  border: 2px solid black;
+}
+
+/* Left image configuration */
+.img-pfp{
+  width: 500px;
+  height: 270px;
+  background-image: url(../IMAGES/PFP.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+}
+
+/* Left Column Configuration */
+.left-col{
+  width: auto;
+  margin-bottom: auto;
+}
+
+/* Middle Column Configuration */
+.text-col{
+  width: auto;
+  height: auto;
+  margin-bottom: auto;
+  max-width: 50%;
+}
+
+/* Sets up the Title of Page */
+.title {
+  text-align: center; 
+  margin-top: 20px; 
+  font-size: 36px; 
+  font-weight: bold;
+  color: black; 
+}
+
+/* Right column configuration */
+.right-col{
+  width: auto;
+  margin-bottom: auto;
+}
+
+/* Side Image configuration */
+.img-side{
+  width: 350px;
+  height: 720px;
+  background-image: url(../IMAGES/SideIMG.jpg);
+  background-size: 165%;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+}
+
+/* This draws the table */
+table, th, td {
+  border: 2px solid black;
+  width: auto;
+}
+
+/* Sets the width of the project column */
+.pwd{
+  text-align: center;
+  white-space: nowrap;
+  width: 25%;
+}
+
+/* Sets the width of the Description column */
+.dwd{ 
+  width: 75%;
+}
+
+.validation{
+  width: auto;
+  margin-left: -2px;
+  margin-bottom: auto;
+}
+
+
+html {
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+}
